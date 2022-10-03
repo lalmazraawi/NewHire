@@ -1,0 +1,552 @@
+<!-- American Smart Template v4.3 -->
+
+<!DOCTYPE html>
+<html>
+<head><!-- Yahoo App Android will strip this --></head>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Spec Export - Sketch Measure 2.4 </title>
+
+	<!--
+	[if gte mso 9]>
+	<xml>
+	<o:OfficeDocumentSettings>
+	<o:AllowPNG/>
+	<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+
+<!--  CLIENT-SPECIFIC STYLES -->
+
+<style type="text/css">
+#outlook a { /*Force Outlook to provide a " view in browser" message*/
+padding: 0;
+}
+
+.ReadMsgBody { /*Force Hotmail to display emails at full width */
+	width: 100%;
+}
+
+.ExternalClass {  /*Force Hotmail to display emails at full width*/
+	width: 100%;
+}
+
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { /*Force Hotmail to display normal line spacing*/
+	line-height: 100%;
+}
+
+body, table, td, a { /*prevent Webkit and Windows mobile from changing default text sizes*/
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+table, td { /* Remove spacing between tables in Outlook 2007 and up*/
+	mso-table-lspace:0pt;
+	mso-table-rspace: 0pt;
+	margin: 0 !important;
+	margin-right: 0 !important;
+}
+
+img { /*Allow smoother rendering of resized image in IE*/
+	-ms-interpolation-mode: bicubic;
+}
+
+
+* {
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	Margin: 0;
+	padding: 0;
+	min-width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	mso-line-height-rule: exactly;
+}
+
+table {
+	color: #333333;
+	font-family: Arial, Helvetica, sans-serif;
+	border-radius: 0px;
+}
+
+img {
+	border: 0;
+}
+
+a, a:visited, a:active {
+	color: #0078d2;
+}
+
+.webkit {
+	max-width: 700px;
+	overflow: visible;
+	ms-overflow-x: visible;
+	ms-overflow-y: visible;
+}
+
+.container {
+	Margin: 0 auto;
+	width: 100%;
+	max-width: 700px;
+	overflow:visible;
+}
+
+.full-width-image img {
+	width: 100%;
+	max-width: 600px;
+	height: auto;
+}
+
+a[x-apple-data-detectors] {
+	color: inherit !important;
+	text-decoration: none !important;
+	font-size: inherit !important;
+	font-family: inherit !important;
+	font-weight: inherit !important;
+	line-height: inherit !important;
+}
+
+.gmail-show {
+	width: auto !important;
+	height: auto !important;
+	max-height: none !important;
+	max-width: none !important;
+	display: block !important;
+	overflow: visible !important;
+}
+
+u + .body .gmail-show {
+	width:0px!important;
+	height:0px!important;
+	max-height:0px!important;
+	max-width:0px!important;
+	display:none!important;
+	overflow:hidden!important;
+}
+
+.img-align-vertical img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+td.preheader {
+	font-size: 11px;
+	color=: #9DA6AB;
+	padding-top: 87px;
+}
+
+sup {
+	font-size:70%;
+	line-height:1;
+	vertical-align:text-top;
+	mso-text-raise: 30%;
+}
+
+
+<!-- MEDIA QUERIES --  -->
+
+@media screen and (max-width: 700px) {
+
+	.TextCenter {
+		text-align:center !important;
+	}
+	.kill {
+		display: none !important;
+		width:0px !important;
+	}
+	.inlineTR {
+		display: table-cell !important;
+	}
+	.container {
+		width:98% !important;
+		margin:0 auto !important;
+		-webkit-box-shadow:none !important;
+		-moz-box-shadow: none !important;
+		box-shadow:none !important;
+	}
+	.fulltable {
+		width:100% !important;
+		margin:0 auto !important;
+		-webkit-box-shadow:none !important;
+		-moz-box-shadow: none !important;
+		box-shadow:none !important;
+	}
+	.NinetyWidth {
+		max-width:100% !important;
+		width:92% !important;
+	}
+	.EightyWidth {
+		max-width:100% !important;
+		width:80% !important;
+	}
+	.SeventyWidth {
+		max-width:100% !important;
+		width:70% !important;
+	}
+	.halfwidth {
+		max-width:100% !important;
+		width:50% !important;
+	}
+	.SingleRowHeight {
+		height: 110px !important;
+	}
+	.BorderLine {
+		max-width:100% !important;
+		width:85% !important;
+		height:1px !important;
+	}
+	.BorderLineFull {
+		max-width:100% !important;
+		width:100% !important;
+		height:1px !important;
+	}
+	.MerchantSpacer {
+		max-width:100%!important;
+		width:100% !important;
+		height:20px !important;
+	}
+	.EarningsBlock {
+		max-width:100% !important;
+		width:100% !important;
+		background-color:#ffffff !important;
+	}
+	.RImage {
+		width: 100% !important;
+		max-width: 100% !important;
+	}
+	.utilbar {
+		font-family:Helvetica, sans-serif !important;
+		font-size:16px !important;
+		mso-line-height-rule:exactly;
+		line-height:24px !important;
+		color:#0078d2 !important;
+		background-color:#e7ecef !important;
+		height:45px !important;
+		font-weight: normal;
+	}
+	.utilbarlink {
+		color:#0078d2 !important;
+		text-decoration:none !important;
+	}
+	.BottomPad {
+		padding-bottom:20px !important;
+	}
+	.AddLine {
+		display:block !important;
+		width: 100% !important;
+		clear:both;
+		padding-bottom:1px !important;
+		background-color:#ffffff !important;
+	}
+	.NavTable {
+		width:94% !important;
+		margin:0 auto !important;
+		-webkit-box-shadow:none !important;
+		-moz-box-shadow: none !important;
+		box-shadow:none !important;
+	}
+	#mobile_only {
+		width:100% !important;
+		overflow:visible !important;
+		float: none !important;
+		display:block !important;
+		height:auto !important;
+	}
+	.FeaturedPad {
+		padding-top:20px !important;
+		text-align: center !important;
+	}
+}
+
+@media yahoo and (max-width: 700px) {
+	.TextCenter {
+		text-align:center !important;
+	}
+	.kill {
+		display: none !important;
+		width:0px !important;
+	}
+	.inlineTR {
+		display: table-cell !important;
+	}
+	.container {
+		width:98% !important;
+		margin:0 auto !important;
+		-webkit-box-shadow:none !important;
+		-moz-box-shadow: none !important;
+		box-shadow:none !important;
+	}
+	.fulltable {
+		width:100% !important;
+		margin:0 auto !important;
+		-webkit-box-shadow:none !important;
+		-moz-box-shadow: none !important;
+		box-shadow:none !important;
+	}
+
+	.FullWidth {
+		max-width:100% !important;
+		width:100% !important;
+		height:auto !important;
+	}
+	.NinetyWidth {
+		max-width:100% !important;
+		width:92% !important;
+	}
+	.EightyWidth {
+		max-width:100% !important;
+		width:80% !important;
+	}
+	.SeventyWidth {
+		max-width:100% !important;
+		width:70% !important;
+	}
+	.halfwidth {
+		max-width:100% !important;
+		width:50% !important;
+	}
+
+	.SingleRowHeight {
+		height: 110px !important;
+	}
+	.BorderLine {
+		max-width:100% !important;
+		width:85% !important;
+		height:1px !important;
+	}
+	.BorderLineFull {
+		max-width:100% !important;
+		width:100% !important;
+		height:1px !important;
+	}
+	.MerchantSpacer {
+		max-width:100%!important;
+		width:100% !important;
+		height:20px !important;
+	}
+	.EarningsBlock {
+		max-width:100% !important;
+		width:100% !important;
+		background-color:#ffffff !important;
+	}
+
+	.RImage {
+		width: 100% !important;
+		max-width: 100% !important;
+	}
+
+	.utilbar { font-family:Helvetica, Arial, sans-serif !important;
+		font-size:16px !important;
+		mso-line-height-rule:exactly;
+		line-height:24px !important;
+		color:#0078d2 !important;
+		background-color:#e7ecef !important;
+		height:45px !important;
+		font-weight: normal;
+	}
+	.utilbarlink {
+		color:#0078d2 !important;
+		text-decoration:none !important;
+	}
+	.BottomPad {
+		padding-bottom:20px !important;
+	}
+	.AddLine {
+		display:block !important;
+		width: 100% !important;
+		clear:both;
+		padding-bottom:1px !important;
+		background-color:#ffffff !important;
+	}
+	.NavTable {
+		width:94% !important;
+		margin:0 auto !important;
+		-webkit-box-shadow:none !important;
+		-moz-box-shadow: none !important;
+		box-shadow:none !important;
+	}
+	#mobile_only {
+		width:100% !important;
+		overflow:visible !important;
+		float: none !important;
+		display:block !important;
+		height:auto !important;
+	}
+
+	.FeaturedPad {
+		padding-top:20px !important;
+		text-align: center !important;
+	}
+}
+</style>
+
+<!--[if (gte mso 9)|(IE)]>
+<style type="text/css">
+table {
+border-collapse: collapse !important;
+}
+</style>
+<![endif]-->
+<!--[if gte mso 9]>
+<style>
+sup {
+font-size: 70% !important;
+}
+</style>
+<![endif]-->
+
+
+</head>
+
+<body cellpadding="0" cellspacing="0" border="0" style="margin:0; padding-top:0; padding-bottom:0; padding-right:0; padding-left:0; min-width:100%; background-color:#ffffff; font-family: Arial, Helvetica, sans-serif;">
+	<!--CONTAINER-->
+	<center class="wrapper" style="width:100%; table-layout:fixed; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; background-color:#ffffff;">
+		<!-- WRAPPER TABLE -->
+		<table class="container fullwidth" border="0" cellpadding="0" cellspacing="0" width="700px" background-color="#ffffff" style="direction:ltr;">
+			<tr>
+				<td>
+					<!-- TABLE LOGO/PREHEADER TEXT -->
+					<table class="fullwidth" align ="center" border="0" cellpadding="0" cellspacing="0" width="100%" background color="#ffffff" align="center">
+						<!-- PREHEADER -->
+						<tr>
+							<td align="center" style="font-size: 11px; color: #9DA6AB; padding-top: 13px;">
+								Coming soon: More chances to earn and win
+							</td>
+						</tr>
+						<!-- LOGO -->
+						<tr> 
+							<style>
+								.logo {
+									align-content:center;
+									padding-top: 43px;
+									padding-bottom:100px;
+									width:auto;
+									height:20px;
+									background-size:24px 24px;
+								
+								}
+							</style>
+
+							<div>
+							
+							<td class="logo" align="center" style="padding-top: 43px; padding-bottom: 49px;">
+								<div> 
+								<img src="https://email-marketing-content-origin.s3.amazonaws.com/Images/test/NHTest_Logo2x.jpg" alt="AAlogo" />
+								</div>
+								<img src="https://email-marketing-content-origin.s3.amazonaws.com/Images/test/NHTest_MLB2x.jpg" alt="trees" />
+								
+									<element class="Great">Great Big World Sweepstakes.</element> <br>
+								<element class="congrats">Congratulations to our winners <br> </element>
+								<br>
+								<element class="Thankyou">Thank you for participating in the Great Big World Sweepstakes.<br> We’re excited to announce this year&#39;s winners and wish them the happiest of travels.<br></element>
+								<br>
+								Grand Prize Winner<br>
+								<element class="Name"></element>Ada L. won 100,000 miles & $2,500<br>
+								________________ <br>
+								<br>
+								First Place Winners<br>
+								Nick H., Kimberely B. & Jennie L.<br>won 20,000 miles<br>
+								<br>
+								If you didn’t win this time around, keep an eye out for more AAdvantage <br> eShopping℠ sweepstakes to come. Plenty of great bonuses and offers are <br> headed your way, so be on the lookout for new chances to earn miles, getaways, and more.
+								<br>
+								<br>
+								<button class="btn view">View my account</button>
+								</p>
+								<style>.btn {
+									border: none;
+									background-color: #3484F5;
+									color: white;
+									padding: 10px 20px;
+									font-size: 12px;
+									font-weight: bold;
+									cursor: pointer;
+									display: inline-block;
+									border-radius: 3px;
+									
+								  }
+								  .congrats {
+									  color:#0078D2;
+									  font-size: 30px;
+
+								  }
+								  .Great {
+									  color: #00467F;
+									  font-size: 12px;
+									  font-weight: bold;
+
+								  }
+								  .Thankyou {
+									color: black;
+									font-size: smaller;
+
+								  }
+								  .Name {
+									color: #00467F;
+									font-size: 0px;
+								  }
+								  </style>
+
+								
+							</td>
+						
+						</tr>
+					</table>
+					<!-- END TABLE LOGO/PREHEADER TEXT -->
+
+					
+
+					<!-- TABLE FOOTER WRAPPER -->
+					<table class="fullwidth" border="0" cellpadding="0" cellspacing="0" width="100%"  align="center" style="height: 200px; background-color: #354959;">
+						<tr >
+							<td>
+								<!-- TABLE FOOTER -->
+								<table class="fullwidth" border="0" cellpadding="0" cellspacing="0" width="664px"  align="center" style="background-color: #354959; padding-top: 15px; height: 185px;">
+									<!-- LINKS -->
+									<tr>
+										<td border="0px" align="left" style="font-size: 16px; color: #FFFFFF; line-height: 28px; padding-left:20px; ">
+											Log in
+										</td>
+									</tr>
+									<tr>
+										<td align="left" style="font-size: 16px; color: #FFFFFF; line-height: 28px; padding-left:20px; line-height:28px;">
+											aa.com
+										</td>
+									</tr>
+									<tr>
+										<td align="left" style="font-size: 16px; color: #FFFFFF; line-height: 28px; padding-left:20px; line-height:28px;">
+											Terms and Conditions
+										</td>
+									</tr>
+									<tr>
+										<td align="left" style="font-size: 16px; color: #FFFFFF; line-height: 28px; padding-left:20px; line-height:28px;">
+											Contact us
+										</td>
+									</tr>
+									<tr>
+										<td align="left" style="font-size: 16px; color: #FFFFFF; line-height: 28px; padding-left:20px; line-height:28px;">
+											Unsubscribe
+											<br>
+											<br>
+										</td>
+									</tr>
+								</table>
+								<!-- END TABLE FOOTER -->
+							</td>
+						</tr>
+					</table>
+					<!-- END TABLE FOOTER WRAPPER -->
+				</td>
+			</tr>
+		</table>
+		<!-- END WRAPPER TABLE -->
+	</center>
+	<!-- END CONTAINER -->
+</body>
+
+
+</html>
